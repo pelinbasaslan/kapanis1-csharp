@@ -1,0 +1,38 @@
+# .NET Core / .NET 5+ projeleri için
+bin/
+obj/
+
+# Kullanıcıya özgü dosyalar
+.vs/
+.idea/
+.vscode/
+
+# Çeşitli IDE ve editörlerin oluşturduğu geçici dosyalar
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.bak
+
+# Derlenmiş dosyalar
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.so
+*.dylib
+*.app
+
+# Yedek dosyaları
+*~
+*.swp
+
+# Kapsayıcı olmayan dosyalar
+*.log
+*.tmp
+
+# .NET Core/SDK ile ilgili dosyalar
+project.lock.json
+project.fragment.lock.json
+artifacts/
